@@ -1,0 +1,81 @@
+
+.container-form{
+  /*border: 2px solid #B399D5;*/
+  background-color: rgb(233, 232, 231);
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 2px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+select {
+  height: 40px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="submit"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  background-color: #833f78;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tamalho{
+  font-size: 20px;
+}
+
+.tamalho {
+  border-color: #B399D5;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #B399D5 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #B399D5 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+.tamalho:hover {
+  color: black;
+  background-position: 0;
