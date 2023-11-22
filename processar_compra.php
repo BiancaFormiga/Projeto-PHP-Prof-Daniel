@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
+    <title>Formulário de Compra</title>
     <style>
         .container-form {
             text-align: center;
@@ -44,7 +44,7 @@
 </head>
 <body>
 <div class="container-form">
-    <h1>Finalize a Sua Compa</h1>
+    <h1>Finalize a Sua Compra</h1>
     <form action="comprarealizada.php" method="post">
         <div class="input-container">
             <label for="nome">Nome Completo:</label>
